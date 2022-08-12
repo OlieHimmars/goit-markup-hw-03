@@ -254,6 +254,7 @@ img {
 
 .button-portfolio {
     margin-top: 0;
+    padding: 6px 22px;
 
     background-color: var(--secondary-background-color);
     border: none;
@@ -263,6 +264,10 @@ img {
     font-weight: 500;
     line-height: 1.625;
     letter-spacing: calc(3*(1em/50)/2);
+}
+
+.button-portfolio:first-child {
+    padding: 6px 25px;
 }
 
 .button-portfolio:hover {
